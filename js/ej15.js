@@ -4,7 +4,8 @@ entre 400). */
 
 let ano = prompt('Introduce el año:');
 
-if (ano%4==0) {
-    console.log(ano +' es un año bisiesto.')
-    else if ()
+if ((ano % 4 === 0 && ano % 100 !== 0) || ano % 400 === 0) {
+    console.log(ano + ' es un año bisiesto.');
+} else {
+    console.log(ano + ' no es un año bisiesto.');
 }
