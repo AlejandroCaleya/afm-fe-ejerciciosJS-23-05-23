@@ -4,6 +4,9 @@ let A = prompt('Introduce el 1r numero:');
 let B = prompt('Introduce el 2o numero:');
 let C = prompt('Introduce el 3r numero:');
 
+
+// forma facilita
+
 if (A>B && A>C) {
     console.log(A + ' es el mayor')
 }
